@@ -19,8 +19,5 @@
             "command": "npm i",
             "trigger": ["checkout", "pull", "setup"]
         }
-    },
-    "styling": {
-        "solution": "scss modules"
     }
 }

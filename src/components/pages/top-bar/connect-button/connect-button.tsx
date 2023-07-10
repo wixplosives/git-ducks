@@ -1,6 +1,8 @@
 import { memo, useReducer, useMemo } from 'react';
 import classNames from 'classnames';
 import styles from './connect-button.module.scss';
+import Badge from 'react-bootstrap/Badge';
+import Spinner from 'react-bootstrap/Spinner';
 
 export interface ConnectButtonProps {
     defaultIsConnected?: boolean;

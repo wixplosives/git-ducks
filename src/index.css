@@ -62,3 +62,9 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-evenly;
+}
