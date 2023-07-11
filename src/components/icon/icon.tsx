@@ -8,5 +8,5 @@ export interface IconProps {
 export const Icon = ({
 svg
 }: IconProps) => {
-    return <div style={{padding:1.5}}>{svg}</div>;
+    return <div>{svg}</div>;
 };

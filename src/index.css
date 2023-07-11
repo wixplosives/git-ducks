@@ -67,4 +67,35 @@ code {
     flex-direction: column;
     height: 150px;
     justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.formContainer {
+    width: 320px;
+    height: 440px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin: 32px;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    gap: 0px 10px;
+}
+
+.formHeader {
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.userName {
+    display: flex;
+    justify-content: space-between;
 }

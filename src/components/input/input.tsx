@@ -5,6 +5,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 export interface InputProps {
     label: string;
     type: string;
+    width?: number;
     placeHolder?: string;
     className?: string;
 }
@@ -15,6 +16,7 @@ export interface InputProps {
  */
 export const FormInput = ({
     className,
+    width = 256,
     type,
     label,
     placeHolder,
@@ -35,10 +37,13 @@ export const FormInput = ({
                 >
                     <input
                         style={{
-                            display: 'flex',
                             margin: '10px',
                             width: '10px',
                             height: '10px',
+                            borderRadius: '20px',
+                            border: '1px solid #2d9fd9',
+                            outline: 'none',
+                            color: '#2d9fd9',
                         }}
                         type={type}
                     />
@@ -48,7 +53,7 @@ export const FormInput = ({
                 <div>
                     <label>{label}</label>
                     <input
-                        style={{ display: 'flex', width: '200px' }}
+                        style={{ display: 'flex', width: `${width}px` }}
                         placeholder={placeHolder}
                         type={type}
                     />

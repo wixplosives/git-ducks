@@ -1,11 +1,11 @@
 import { createBoard } from '@wixc3/react-board';
 import { FormInput } from '../../../components/input/input';
-import emailInput from '../../../assets/email-input.png';
+import lastNameInput from '../../../assets/last=-name.png';
 
 export default createBoard({
-    name: 'Email-Input',
-    Board: () => <FormInput type={'text'} label={'Email'} />,
-    cover: emailInput,
+    name: 'Last-Name-Input',
+    Board: () => <FormInput type={'text'} label={'Last Name'} width={115} />,
+    cover: lastNameInput,
     environmentProps: {
         windowHeight: 640,
     },

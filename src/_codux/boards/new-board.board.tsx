@@ -5,32 +5,15 @@ import { Header } from '../../components/header/header';
 import { Icon } from '../../components/icon/icon';
 
 export default createBoard({
-    name: 'New Board',
+    name: 'Form',
     Board: () => (
-        <div
-            style={{
-                width: '320px',
-                height: '440px',
-                padding: '32px',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'space-evenly',
-            }}
-        >
-            <div
-                style={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    alignContent: 'center',
-                    justifyItems: 'center',
-                    alignItems: 'end',
-                }}
-            >
+        <div className="formContainer">
+            <div className="logoContainer">
                 <Icon
                     svg={
                         <svg
-                            width="32"
-                            height="32"
+                            width="30"
+                            height="30"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -79,16 +62,17 @@ export default createBoard({
                         </svg>
                     }
                 />
-                <Header title={'Codux'} />
-            </div>
-            <div style={{padding: 15, marginTop:20}}>
-                <Header title={'Create Account'} />
+                <Header title="Sign Up" />
             </div>
             <div className="inputContainer">
+                <div className="userName">
+                    <FormInput type={'text'} label={'First Name'} width={115} />
+                    <FormInput type={'text'} label={'Last Name'} width={115} />
+                </div>
                 <FormInput type={'text'} label={'Email'} />
                 <FormInput type={'text'} label={'Password'} />
             </div>
-            <div style={{ marginTop: 48 }}>
+            <div style={{ marginTop: '48px' }}>
                 <FormInput
                     type={'checkbox'}
                     label={'I agree to all the terms of the Agreement'}
