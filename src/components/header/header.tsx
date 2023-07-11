@@ -7,6 +7,7 @@ export interface HeaderProps {
 
 export const Header = ({ title }: HeaderProps) => {
     return (
+        title ?
         <div
             style={{
                 fontFamily: 'questrial, sans-serif',
@@ -16,6 +17,7 @@ export const Header = ({ title }: HeaderProps) => {
             }}
         >
             {title}
-        </div>
+        </div> :
+        {title}
     );
 };

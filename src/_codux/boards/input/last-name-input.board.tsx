@@ -1,6 +1,6 @@
 import { createBoard } from '@wixc3/react-board';
 import { FormInput } from '../../../components/input/input';
-import lastNameInput from '../../../assets/last=-name.png';
+import lastNameInput from '../../../assets/last-name.png';
 
 export default createBoard({
     name: 'Last-Name-Input',

@@ -46,6 +46,8 @@ button {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+    border: 1px solid black;
+    border-radius: 7px;
 }
 
 body {
@@ -78,6 +80,7 @@ code {
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: 0.93px -0.37px 24px black;
+    border-radius: 15px;
 }
 
 .logoContainer {
