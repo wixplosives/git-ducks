@@ -1,20 +1,20 @@
 import { createBoard } from '@wixc3/react-board';
-import { FormButton } from '../../components/form-button/form-button';
-import { FormInput } from '../../components/input/input';
-import { Header } from '../../components/header/header';
-import { Icon } from '../../components/icon/icon';
 import formCover from '../../assets/Form.png';
+import { Icon } from '../../components/icon/icon';
+import { Header } from '../../components/header/header';
+import { FormInput } from '../../components/input/input';
+import { FormButton } from '../../components/form-button/form-button';
 
 export default createBoard({
-    name: 'a-Form',
+    name: 'bare-Form ',
     Board: () => (
         <div className="formContainer">
             <div className="logoContainer">
                 <Icon
                     svg={
                         <svg
-                            width="30"
-                            height="30"
+                            width="50"
+                            height="50"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ export default createBoard({
                         </svg>
                     }
                 />
-                <Header title="Sign Up" />
+                <Header title="Sing Up" />
             </div>
             <div className="inputContainer">
                 <div className="userName">
@@ -88,7 +88,7 @@ export default createBoard({
                     }}
                 >
                     <FormButton variant={'secondary'} content={'Cancel'} />
-                    <FormButton variant={'primary'} content={'Create'} />
+                    <FormButton variant={'primary'} content={'Submit'} />
                 </div>
             </div>
         </div>
