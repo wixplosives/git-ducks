@@ -6,7 +6,7 @@ import { Icon } from '../../components/icon/icon';
 import formCover from '../../assets/Form.png';
 
 export default createBoard({
-    name: 'a-Form',
+    name: 'z-Form',
     Board: () => (
         <div className="formContainer">
             <div className="logoContainer">

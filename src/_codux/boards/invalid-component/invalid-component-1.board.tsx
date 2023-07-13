@@ -4,6 +4,10 @@ import componentWithMultipleReturns from "../../../assets/component-with-multipl
 
 export default createBoard({
     name: 'Invalid-component-multiple returns',
-    Board: () => <InvalidComponent />,
+    Board: () => {
+        const value = Math.random()
+        if(value > 0.5) return <div>hello</div>
+        return <InvalidComponent />
+        } ,
     cover: componentWithMultipleReturns
 });

@@ -6,8 +6,9 @@ export interface HeaderProps {
 }
 
 export const Header = ({ title }: HeaderProps) => {
+
+    const titleValue = title.toString()
     return (
-        title ?
         <div
             style={{
                 fontFamily: 'questrial, sans-serif',
@@ -16,8 +17,7 @@ export const Header = ({ title }: HeaderProps) => {
                 lineHeight: '0.8',
             }}
         >
-            {title}
-        </div> :
-        {title}
+            {titleValue}
+        </div>
     );
 };

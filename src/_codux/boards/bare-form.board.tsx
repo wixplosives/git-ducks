@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import formCover from '../../assets/Form.png';
+import formCover from '../../assets/bare-form.png';
 
 export default createBoard({
     name: 'bare-Form ',

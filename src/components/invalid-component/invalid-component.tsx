@@ -14,5 +14,5 @@ export const InvalidComponent = ({
     className,
     children = 'InvalidComponent',
 }: InvalidComponentProps) => {
-    return <div className={classNames(styles.root, className)}>{children}</div> <div style={{border: "solid 1px"}}>Component with multiple returns</div>;
+    return <div style={{border: "solid 1px"}}>Component with multiple returns</div>;
 };
