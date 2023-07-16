@@ -2,8 +2,8 @@ import { createBoard } from '@wixc3/react-board';
 import { FormButton } from '../../components/form-button/form-button';
 import { FormInput } from '../../components/input/input';
 import { Header } from '../../components/header/header';
-import { Icon } from '../../components/icon/icon';
 import formCover from '../../assets/Form.png';
+import { Icon } from '../../components/icon/icon';
 
 export default createBoard({
     name: 'z-Form',
@@ -13,13 +13,13 @@ export default createBoard({
                 <Icon
                     svg={
                         <svg
-                            width="30"
-                            height="30"
+                            width="50"
+                            height="50"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                         >
-                            <g clip-path="url(#clip0_37_16)">
+                            <g clipPath="url(#clip0_37_16)">
                                 <rect
                                     x="8"
                                     y="8"
@@ -28,8 +28,8 @@ export default createBoard({
                                     fill="white"
                                 ></rect>
                                 <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
                                     d="M18.7932 6.79687C18.7932 8.13189 18.4084 9.37702 17.7435 10.4273C21.2447 10.7027 24 13.6311 24 17.2031C24 20.9569 20.957 24 17.2031 24H6.79692C3.04308 24 0 20.9569 0 17.2031C0 13.6335 2.75175 10.7065 6.2497 10.4279C5.58462 9.37744 5.1996 8.13212 5.1996 6.79687C5.1996 3.04306 8.24264 0 11.9964 0C15.7502 0 18.7932 3.04306 18.7932 6.79687ZM15.2609 9.8089L12.8066 8.48399C12.2964 8.20854 11.6816 8.20918 11.1719 8.48568L8.73161 9.80959C8.23924 10.0767 8.23924 10.7834 8.73161 11.0505L11.1719 12.3744C11.6816 12.6509 12.2964 12.6516 12.8066 12.3761L15.2609 11.0512C15.7549 10.7845 15.7549 10.0756 15.2609 9.8089Z"
                                     fill="url(#paint0_linear_37_16)"
                                 ></path>
@@ -45,12 +45,9 @@ export default createBoard({
                                 >
                                     <stop
                                         offset="0.213542"
-                                        stop-color="#4B47FF"
+                                        stopColor="#4B47FF"
                                     ></stop>
-                                    <stop
-                                        offset="1"
-                                        stop-color="#39DBB0"
-                                    ></stop>
+                                    <stop offset="1" stopColor="#39DBB0"></stop>
                                 </linearGradient>
                                 <clipPath id="clip0_37_16">
                                     <rect
