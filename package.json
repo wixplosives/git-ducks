@@ -16,9 +16,18 @@
         "react-bootstrap": "^2.7.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "vite-plugin-svgr": "^3.2.0"
+        "vite-plugin-svgr": "^3.2.0",
+        "@blueprintjs/core": "^4.20.1",
+        "@blueprintjs/datetime": "^4.4.36",
+        "@blueprintjs/datetime2": "^0.9.35",
+        "@blueprintjs/icons": "^4.16.0",
+        "@blueprintjs/popover2": "^1.14.9",
+        "@blueprintjs/select": "^4.9.22",
+        "@blueprintjs/table": "^4.10.10",
+        "@blueprintjs/timezone": "^4.5.41"
     },
     "devDependencies": {
+        "@codux-boards/react-blueprint": "^1.0.12",
         "@types/dateformat": "^5.0.0",
         "@types/react": "^18.2.14",
         "@types/react-dom": "^18.2.6",
