@@ -1,6 +1,6 @@
 import { createBoard } from '@wixc3/react-board';
 import { FormButton } from '../../../components/form-button/form-button';
-import submit from '../../../assets/create-button.png';
+import create from '../../../assets/create-button.png';
 
 export default createBoard({
     name: 'Create-Button',
@@ -8,5 +8,5 @@ export default createBoard({
     environmentProps: {
         windowWidth: 1024,
     },
-    cover: submit,
+    cover: create,
 });
